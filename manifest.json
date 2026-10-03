@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "RJ番号リンカー (for DLsite)",
+  "name": "RJ番号リンカー",
   "short_name": "RJ番号リンカー",
   "version": "1.1.0",
   "description": "SNS等に書かれた DLsite の作品番号 (RJ/RE/VJ/BJ) を作品ページへのリンクに変換します。※非公式ツールです。",
