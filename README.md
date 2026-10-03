@@ -21,7 +21,7 @@ SNS などに書かれた DLsite の作品番号（`RJ01038533` など）を自�
 - 5ちゃんねる
 - Misskey.io
 - YouTube
-- DLsite ぽっぷむ
+- DLsite ぽみゅ
 
 ## インストール方法
 
