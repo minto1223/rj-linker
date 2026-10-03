@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ja">
+<head><meta charset="utf-8"><title>DLsite Linker Test</title></head>
+<body>
+  <h2>リンク化されるべき</h2>
+  <p>おすすめは RJ308591 です。</p>
+  <p>作品RJ01234567と、rj308591（小文字）、VJ012345、BJ123456、RE308591。</p>
+
+  <h2>リンク化されないべき</h2>
+  <p>ARJ308591 / RJ3085910 / RJ12345</p>
+  <p><a href="https://example.com">既存リンク RJ308591</a></p>
+  <textarea>入力欄 RJ308591</textarea>
+  <div contenteditable="true">編集可能 RJ308591</div>
+  <pre>pre内 RJ308591</pre>
+
+  <h2>動的追加（1秒後）</h2>
+  <div id="dyn"></div>
+  <script>
+    setTimeout(() => {
+      document.getElementById('dyn').innerHTML = '<p>後から追加 RJ308591</p>';
+    }, 1000);
+  </script>
+</body>
+</html>

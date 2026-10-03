@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <img src="icons/icon48.png" alt="" width="24" height="24">
+    <h1>RJ番号リンカー</h1>
+  </header>
+
+  <label class="row toggle">
+    <span>自動リンク化</span>
+    <input type="checkbox" id="enabled">
+    <span class="switch" aria-hidden="true"></span>
+  </label>
+
+  <form id="open-form" class="row">
+    <input id="id-input" type="text" placeholder="RJ308591" autocomplete="off" spellcheck="false">
+    <button type="submit">開く</button>
+  </form>
+  <p id="error" class="error" hidden>作品番号の形式が正しくありません</p>
+
+  <details>
+    <summary>対応サイト</summary>
+    <ul>
+      <li>X (Twitter)</li>
+      <li>Bluesky</li>
+      <li>pixiv</li>
+      <li>5ちゃんねる</li>
+      <li>Misskey.io</li>
+      <li>YouTube</li>
+      <li>DLsite ぽっぷむ (ch.dlsite.com)</li>
+    </ul>
+    <p class="note">その他のサイトでは、番号を選択して右クリック →「DLsiteで開く」を使えます。</p>
+  </details>
+
+  <footer>本拡張機能は非公式であり、DLsite および運営会社とは関係ありません。</footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+a.dlsite-linker {
+  color: #1d6fd6 !important;
+  text-decoration: underline dotted !important;
+  cursor: pointer;
+}
+
+a.dlsite-linker:hover {
+  text-decoration: underline solid !important;
+}
